@@ -1,9 +1,15 @@
-# Prerequisite
+# Modern Notepad++ icon for Windows 11
+
+I created a modified version of the Windows 11 text file icon to include the Notepad++ icon so that it fits better with the style of the OS. I threw together a quick installer script for it. It only modifies the `DefaultIcon` registry for Notepad++
+
+![example.png](/example.png)
+
+## Prerequisite
 
 Before running any of the following, you'll need to make sure you have Notepad++
 setup as the default application for opening any file (.txt, .html, .json, etc)
 
-# How to install
+## How to install
 
 Simply drag the `file.ico` icon into the C:\Program Files\Notepad++\ directory.
 Once that is done, just run the `setup.reg` file to setup the registry key to
@@ -12,7 +18,7 @@ point to the new icon file.
 If your path to Notepad++ isn't in the program files folder, you'll need to
 go about the setup slightly different.
 
-# How to install manually
+## How to install manually
 
 Make sure to store the `file.ico` file anywhere that won't get deleted. Once
 done, make sure you take note of the path to the icon.
